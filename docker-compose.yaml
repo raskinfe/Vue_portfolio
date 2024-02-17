@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  vue_portfolio:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3000:3000"
