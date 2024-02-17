@@ -8,6 +8,7 @@
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
     },
     "dependencies": {
+        "@vitejs/plugin-vue": "^3.1.0",
         "sass": "^1.54.2",
         "vue": "^3.2.37"
     },
